@@ -71,4 +71,5 @@ Once the model training is complete, evaluate its performance using the test set
 ![predict model to validation data](https://github.com/Capstone-DEBUSA/Machine-Learning/assets/99036085/f78bd0e9-b9e9-42ae-aaf3-d9794ab348ee)
 
 # Example Prediction
-![display labels and prediction validation data](https://github.com/Capstone-DEBUSA/Machine-Learning/assets/99036085/81e4e781-4efd-4f45-bce9-fce0bdd71466)
+![predictt](https://github.com/Capstone-DEBUSA/Machine-Learning/assets/99036085/2de637cd-229f-4c8b-9dc7-052c6d90d105)
+
