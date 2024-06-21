@@ -47,7 +47,7 @@ Train the ResNet152V2 model using the labeled images within the training set. Ut
 https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
 
 # Fine-tune hyperparameters and Training configurations
-|                         |       |
+
 |---------------------------- |----------- |
 | Type                        | Value      |
 |Learning Rate                | <code>0.0001</code>| 
