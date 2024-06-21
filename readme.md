@@ -73,3 +73,6 @@ Once the model training is complete, evaluate its performance using the test set
 # Example Prediction
 ![predictt](https://github.com/Capstone-DEBUSA/Machine-Learning/assets/99036085/2de637cd-229f-4c8b-9dc7-052c6d90d105)
 
+# Model ResNet152V2
+https://drive.google.com/file/d/1leICJcILePI7PkBnMQZSLFQSxGEVWZYX/view?usp=sharing
+
