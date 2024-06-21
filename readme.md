@@ -42,9 +42,9 @@ In addition to its primary architecture, ResNet152V2 incorporates pre-activation
 Train the ResNet152V2 model using the labeled images within the training set. Utilize prominent machine learning frameworks or libraries, such as TensorFlow or Keras, which provide pre-built implementations of ResNet152V2. Fine-tune hyperparameters and training configurations based on experimentation and model performance.
 
 # Pre-built implementations of ResNet152V2
-Download the pre-trained weights. No top means it excludes the fully connected layer it uses for classification.
+<code> # Download the pre-trained weights. No top means it excludes the fully connected layer it uses for classification.
 !wget --no-check-certificate \
-https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
+https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5 </code>
 
 # Fine-tune hyperparameters and Training configurations
 | Type    | Value    |
