@@ -48,8 +48,9 @@ https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_
 
 # Fine-tune hyperparameters and Training configurations
 
-| Type    | Value    |
+|     |     |
 |------------|------------|
+| Type    | Value    |
 |Learning Rate                | <code>0.0001</code>| 
 |Optimizer                    | <code>Adam</code>| 
 |Batch Size                   | <code>32</code>| 
