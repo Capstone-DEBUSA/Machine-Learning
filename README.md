@@ -16,6 +16,7 @@ ResNet152V2 is a deep learning model used for image classification, including th
 
 ## Dataset
 We obtained the dataset by independently photographing vegetables and fruits, making it our original data. The dataset was then split into a training set and a test set. The training set was used to train the ResNet152V2 model, while the test set was used to evaluate its performance.
+|------------ |
 | Apel        |
 | Brokoli     |
 | Jeruk       |
