@@ -16,16 +16,16 @@ ResNet152V2 is a deep learning model used for image classification, including th
 
 ## Dataset
 We obtained the dataset by independently photographing vegetables and fruits, making it our original data. The dataset was then split into a training set and a test set. The training set was used to train the ResNet152V2 model, while the test set was used to evaluate its performance.
-- Apel
-- Brokoli
-- Jeruk
-- Kangkung
-- Mangga
-- Pisang
-- Strawberry
-- Terong
-- Toge
-- Wortel
+| Apel        |
+| Brokoli     |
+| Jeruk       |
+| Kangkung    |
+| Mangga      |
+| Pisang      |
+| Strawberry  |
+| Terong      |
+| Toge        |
+| Wortel      |
   
 ![bar chart of train each category](https://github.com/Capstone-DEBUSA/Machine-Learning/assets/99036085/7550fdb7-6dca-45b1-afe4-300016135747)
 
@@ -52,6 +52,7 @@ https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_
 | Input Shape | <code>(416,416,3)</code> | 
 | Data Augmentation Parameters | <code>rescale=1./255</code> | 
 | Regularization Techniques |  <code>layers.GlobalMaxPooling2D()(ResNet152V2_last_output)</code><br><code>layers.Dense(512, activation='relu')(x_ResNet152V2)(x)</code><br><code>layers.Dropout(0.15)(x_ResNet152V2)(x)</code><br><code>layers.Dense(10, activation='softmax')(x_ResNet152V2)</code><br> | 
+
 ## Evaluation and Visualitation
 Once the model training is complete, evaluate its performance using the test set. Measure accuracy and other relevant evaluation metrics to assess the model's classification capability.
 
