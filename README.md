@@ -3,13 +3,13 @@
 ### Function Dependencies
 | Library     | Version    | 
 |------------ |------------|
-|Tensorflow	  |            |
-|Keras	      |            |
-|Matplotlib	  |            |
-|NumPy	      |            |
-|Pandas	      |            |
-|Scikit-learn	|            |
-|Seaborn      |            |
+|Tensorflow	  |<code>^2.5.0</code>|
+|Keras	      |<code>^2.4.3</code>|
+|Matplotlib	  |<code>^3.4.2</code>|
+|NumPy	      |<code>^1.19.5</code>|
+|Pandas	      |<code>^1.2.4</code>|
+|Scikit-learn	|<code>^0.24.2</code>|
+|Seaborn      |<code>^0.11.1</code>|
 
 ## Transfer Learning ResNet152V2
 ResNet152V2 is a deep learning model used for image classification, including the classification of ten types of vegetables and fruits. It is pre-trained on a large dataset and can extract relevant features from vegetables and fruits images. The model's architecture includes convolutional layers, pooling layers, and fully connected layers. It is trained using labeled fish images, and can classify new images by assigning probabilities to each fish species. ResNet152V2 is effective for accurately identifying vegetables and fruits based on visual characteristics.
