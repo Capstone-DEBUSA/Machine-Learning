@@ -47,15 +47,16 @@ Train the ResNet152V2 model using the labeled images within the training set. Ut
 https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
 
 ### Fine-tune hyperparameters and Training configurations
-| Type    | Value    |
-|------------|------------|
-| Learning Rate | <code>0.0001</code> | 
-| Optimizer | <code>Adam</code> | 
-| Batch Size | <code>32</code> | 
-| Number of Training Epochs | <code>10</code> | 
-| Input Shape | <code>(416,416,3)</code> | 
+
+| Type                         | Value    |
+|------------------------------|------------|
+| Learning Rate                | <code>0.0001</code> | 
+| Optimizer                    | <code>Adam</code> | 
+| Batch Size                   | <code>32</code> | 
+| Number of Training Epochs    | <code>10</code> | 
+| Input Shape                  | <code>(416,416,3)</code> | 
 | Data Augmentation Parameters | <code>rescale=1./255</code> | 
-| Regularization Techniques |  <code>layers.GlobalMaxPooling2D()(ResNet152V2_last_output)</code><br><code>layers.Dense(512, activation='relu')(x_ResNet152V2)(x)</code><br><code>layers.Dropout(0.15)(x_ResNet152V2)(x)</code><br><code>layers.Dense(10, activation='softmax')(x_ResNet152V2)</code><br> | 
+| Regularization Techniques    | <code>layers.GlobalMaxPooling2D()(ResNet152V2_last_output)</code><br><code>layers.Dense(512, activation='relu')(x_ResNet152V2)(x)</code><br><code>layers.Dropout(0.15)(x_ResNet152V2)(x)</code><br><code>layers.Dense(10, activation='softmax')(x_ResNet152V2)</code><br> | 
 
 ## Evaluation and Visualitation
 Once the model training is complete, evaluate its performance using the test set. Measure accuracy and other relevant evaluation metrics to assess the model's classification capability.
