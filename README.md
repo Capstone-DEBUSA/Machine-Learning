@@ -45,6 +45,7 @@ Train the ResNet152V2 model using the labeled images within the training set. Ut
 <code># Download the pre-trained weights. No top means it excludes the fully connected layer it uses for classification.
 !wget --no-check-certificate \
 https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_weights_tf_dim_ordering_tf_kernels_notop.h5
+
 ### Fine-tune hyperparameters and Training configurations
 | Type    | Value    |
 |------------|------------|
