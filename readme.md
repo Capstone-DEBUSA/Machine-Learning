@@ -61,7 +61,7 @@ https://storage.googleapis.com/tensorflow/keras-applications/resnet/resnet152v2_
 Once the model training is complete, evaluate its performance using the test set. Measure accuracy and other relevant evaluation metrics to assess the model's classification capability.
 
 # Model Accuracy & Lose
-loss: 8.6371e-04 - accuracy: 1.0000 - val_loss: 0.0015 - val_accuracy: 1.0000
+<code> loss: 8.6371e-04 - accuracy: 1.0000 - val_loss: 0.0015 - val_accuracy: 1.0000 </code>
 ![accuration](https://github.com/Capstone-DEBUSA/Machine-Learning/assets/99036085/0acfe51c-2bf5-4751-8ec8-6567002a4ef1)
 ![loss](https://github.com/Capstone-DEBUSA/Machine-Learning/assets/99036085/f4849ae3-91db-4f20-95c0-285f02487f5d)
 
