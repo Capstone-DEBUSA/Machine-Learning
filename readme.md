@@ -1,5 +1,3 @@
-# Machine-Learning
-
 # Function Dependencies
 
 | Library     | Version    | 
